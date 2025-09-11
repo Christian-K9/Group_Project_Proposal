@@ -15,22 +15,56 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Loading" translatesAutoresizingMaskIntoConstraints="NO" id="flo-W1-uI3">
+                                <rect key="frame" x="0.0" y="140" width="393" height="359"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NoteBox" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d82-sM-TtQ">
+                                <rect key="frame" x="0.0" y="531" width="393" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="t46-oi-edJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcS-Of-CiU">
+                                <rect key="frame" x="0.0" y="613" width="393" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="MO6-CD-9Pu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="flo-W1-uI3" firstAttribute="leading" secondItem="d82-sM-TtQ" secondAttribute="leading" id="CHJ-oF-PrX"/>
+                            <constraint firstItem="d82-sM-TtQ" firstAttribute="leading" secondItem="qcS-Of-CiU" secondAttribute="leading" id="Cyc-lm-sIz"/>
+                            <constraint firstItem="d82-sM-TtQ" firstAttribute="trailing" secondItem="qcS-Of-CiU" secondAttribute="trailing" id="E4F-Mz-zYS"/>
+                            <constraint firstItem="flo-W1-uI3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Gxv-XU-4YR"/>
+                            <constraint firstItem="d82-sM-TtQ" firstAttribute="top" secondItem="flo-W1-uI3" secondAttribute="bottom" constant="32" id="MT4-J5-sFz"/>
+                            <constraint firstItem="flo-W1-uI3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="MTO-Tk-2XM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qcS-Of-CiU" secondAttribute="bottom" constant="30" id="aaX-7W-qid"/>
+                            <constraint firstItem="flo-W1-uI3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fGe-Oy-rZp"/>
+                            <constraint firstItem="flo-W1-uI3" firstAttribute="trailing" secondItem="d82-sM-TtQ" secondAttribute="trailing" id="g0i-Bz-dFl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d82-sM-TtQ" secondAttribute="bottom" constant="112" id="sLH-gO-Jmt"/>
+                        </constraints>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="qDJ-vq-Svw"/>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-326" y="370"/>
+            <point key="canvasLocation" x="-327.48091603053433" y="369.71830985915494"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <image name="Loading" width="341.33334350585938" height="341.33334350585938"/>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

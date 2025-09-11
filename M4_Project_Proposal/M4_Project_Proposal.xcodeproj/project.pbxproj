@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		938722432E7387AA00407C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938722412E7387AA00407C0E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		925A55C82E735ED200A39BB8 /* M4_Project_Proposal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M4_Project_Proposal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		938722422E7387AA00407C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = M4_Project_Proposal/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +50,7 @@
 		925A55BF2E735ED200A39BB8 = {
 			isa = PBXGroup;
 			children = (
+				938722412E7387AA00407C0E /* LaunchScreen.storyboard */,
 				925A55CA2E735ED200A39BB8 /* M4_Project_Proposal */,
 				925A55C92E735ED200A39BB8 /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938722432E7387AA00407C0E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		938722412E7387AA00407C0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				938722422E7387AA00407C0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		925A55DC2E735ED500A39BB8 /* Debug */ = {
